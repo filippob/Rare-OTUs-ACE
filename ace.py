@@ -2,12 +2,12 @@
 ## run as: python ace.py --file Analysis/closed_otupicking/otu_table.csv -rt 4
 ## returns: a two-column csv file with sample ID and estimated ACE value
 ##
+import argparse
 import skbio as sk
 import numpy as np
 import pandas as pd
 import skbio.diversity.alpha
 
-import argparse
 
 parser = argparse.ArgumentParser(description='Estimate ACE.')
 parser.add_argument('-f','--file', metavar='FILE',

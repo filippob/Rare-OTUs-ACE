@@ -15,7 +15,9 @@ The script accepts as parameters:
 
 Launch as:
 
-   python ace.py --file otu_table.csv -rt number_of_samples
+   `python ace.py --file otu_table.csv -rt number_of_samples`
+   
+As output, the scripts produces a **csv file** (*ace.csv*) with two columns: sample ID and estimated ACE value.
 
 
 
